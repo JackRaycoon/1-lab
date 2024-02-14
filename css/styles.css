@@ -110,3 +110,12 @@
 		height: 60px;
 		width: 230px;
 	}
+
+	.authors{
+	text-decoration: none;
+	user-select: none;
+	color: #e4e0e0;
+	font-size: 15px;
+	padding: 2px;
+	margin: 0;
+	}
