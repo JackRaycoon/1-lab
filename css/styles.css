@@ -1,13 +1,7 @@
 	body {
 	font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
 	background: linear-gradient(to right, #dbdbdb, #a4a4a4);
-}
-	h2 {
-	font-size: 1.1em; /* Размер шрифта */
-	color: #800040; /* Цвет текста */
-	margin-top: 0; /* Отступ сверху */
 	}
-
 	.header_back
 	{
 		z-index: 2;
@@ -43,69 +37,6 @@
 		display: flex;
 		align-items: center;
 	}
-	.container {
-		z-index: 0;
-		position: absolute;
-		top: 80px;
-		left: 225px;
-		width: 80%;
-		margin: 0 auto; /* Выравнивание по центру */
-		padding-bottom: 50px;
-		background: #f0f0f000; /* Цвет фона левой колонки */
-		}
-	.block {
-	margin: 0; /* Отступ слева */
-	padding: 10px; /* Поля вокруг текста */
-	background: #fff; /* Цвет фона правой колонки */
-	color: rgb(0, 0, 0);
-	height: 180px;
-	width: 1200px;
-	border: 4px solid #383838;
-	border-radius: 10px;
-	display: flex;
-	align-items: flex-start;
-	margin-bottom: 20px;
-	position: relative;
-	}
-	img.news{
-		position: relative;
-		margin: 0;
-		padding: 0;
-		height: 180px;
-		width: 360px;
-		border-radius: 20px;
-		object-fit: cover;
-    	margin-right: 20px;
-	}
-	.title{
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-size: 25px;
-    font-weight: bold;
-    margin: 0 0 10px 0;
-	overflow-wrap: break-word;
-	width: 840px;
-	}
-	.small_text{
-		font-size: 15px;
-		overflow-wrap: break-word;
-		width: 840px;
-	}
-	.info {
-		position: absolute;
-		right: 20px;
-		bottom: 12px;
-		text-align: right; 
-	}
-	.date,
-	.category {
-    display: inline-block;
-    color: rgb(98, 98, 98);
-    margin: 0;
-	}
-
-	.date {
-    margin-right: 5px; /* Добавим небольшой отступ между датой и категорией */
-	}	
 	.side_menu{
 	z-index: 1;
 	top: 50px;
