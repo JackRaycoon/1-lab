@@ -5,25 +5,25 @@ html{
 		z-index: 0;
 		position: absolute;
 		top: 5rem;
-		left: 13.438rem;
-		width: 75rem;
+		left: 14rem;
+		right: 4.625rem;
 		margin: 0 auto; /* Выравнивание по центру */
 		padding-bottom: 3.125rem;
 		background: #f0f0f000; /* Цвет фона левой колонки */
 		}
 	.block {
+	position: relative;
 	margin: 0; /* Отступ слева */
 	padding: 0.625rem; /* Поля вокруг текста */
 	background: #fff; /* Цвет фона правой колонки */
 	color: rgb(0, 0, 0);
 	height: 11.25rem;
-	width: 75rem;
+	width: 100%;
 	border: 0.25rem solid #383838;
 	border-radius: 0.625rem;
 	display: flex;
 	align-items: flex-start;
 	margin-bottom: 1.25rem;
-	position: relative;
 	}
 	img.news{
 		position: relative;
@@ -36,17 +36,17 @@ html{
     	margin-right: 1.25rem;
 	}
 	.title{
+	position: relative;
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: 1.563rem;
     font-weight: bold;
     margin: 0 0 0.625rem 0;
 	overflow-wrap: break-word;
-	width: 52.5rem;
 	}
 	.small_text{
-		font-size: 0.938rem;
+		margin: 0;
+		font-size: 1.1rem;
 		overflow-wrap: break-word;
-		width: 52.5rem;
 	}
 	.info {
 		position: absolute;

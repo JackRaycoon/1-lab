@@ -10,6 +10,8 @@ html{
 		margin: 0 auto; /* Выравнивание по центру */
 		padding-bottom: 3rem;
 		background: #f7f7f7;
+		border: 0.25rem solid #383838;
+	    border-radius: 0.625rem;
 	  }
 	  .news-title{
 		text-align: left;
