@@ -6,7 +6,7 @@ html{
 		position: absolute;
 		top: 5rem;
 		left: 14rem;
-		width: 75rem;
+		right: 4.625rem;
 		margin: 0 auto; /* Выравнивание по центру */
 		padding-bottom: 3rem;
 		background: #f7f7f7;
@@ -18,13 +18,13 @@ html{
     	font-weight: bold;
 		overflow-wrap: break-word;
 		width: 70rem;
-		padding: 0 0 0 2.5rem;
+		padding: 0 2.5rem 0 2.5rem;
 		margin-bottom: 0.938rem;
 	  }
 	  .news-text{
-		width: 70rem;
+		position: relative;
 		overflow-wrap: break-word;
-		padding: 0 0 0 2.5rem;
+		padding: 0 2.5rem 0 2.5rem;
 		font-size: 1rem;
 		margin-bottom: 2.5rem;
 	  }
@@ -50,14 +50,17 @@ html{
 		text-align: right;
 		right: 1.563rem;
 	}
-	.poster{
-		margin-right: 1.25rem;
-		height: 18.75rem;
-	}
 	.poster-container{
 		display: flex;
 		justify-content: center;
 		position: relative;
 		margin: 0;
 		margin-bottom: 2.5rem;
+	}
+	.poster{
+		margin-right: 1.25rem;
+		height: 18.75rem;
+	}
+	.full_poster{
+		width: 70rem;
 	}
