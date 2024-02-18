@@ -6,16 +6,16 @@ html{
 		position: absolute;
 		top: 5rem;
 		left: 14rem;
-		right: 4.625rem;
-		margin: 0 auto; /* Выравнивание по центру */
+		right: 6.325rem;
+		margin: 0 auto;
 		padding-bottom: 3.125rem;
-		background: #f0f0f000; /* Цвет фона левой колонки */
+		background: #f0f0f000;
 		}
 	.block {
 	position: relative;
-	margin: 0; /* Отступ слева */
-	padding: 0.625rem; /* Поля вокруг текста */
-	background: #fff; /* Цвет фона правой колонки */
+	margin: 0;
+	padding: 0.625rem;
+	background: #fff;
 	color: rgb(0, 0, 0);
 	height: 11.25rem;
 	width: 100%;
@@ -62,5 +62,5 @@ html{
 	}
 
 	.date {
-    margin-right: 0.313rem; /* Добавим небольшой отступ между датой и категорией */
+    margin-right: 0.313rem;
 	}	
