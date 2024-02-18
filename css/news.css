@@ -1,33 +1,33 @@
 	.news-background{
 		z-index: 0;
 		position: absolute;
-		top: 80px;
-		left: 225px;
-		width: 1200px;
+		top: 5rem;
+		left: 14rem;
+		width: 75rem;
 		margin: 0 auto; /* Выравнивание по центру */
-		padding-bottom: 50px;
+		padding-bottom: 3rem;
 		background: #f7f7f7;
 	  }
 	  .news-title{
 		text-align: left;
 		font-family: "Comic Sans MS", "Comic Sans", cursive;
-    	font-size: 30px;
+    	font-size: 1.875rem;
     	font-weight: bold;
 		overflow-wrap: break-word;
-		width: 1120px;
-		padding: 0px 0px 0px 40px;
-		margin-bottom: 15px;
+		width: 70rem;
+		padding: 0px 0px 0px 2.5rem;
+		margin-bottom: 0.938rem;
 	  }
 	  .news-text{
 		width: 1120px;
 		overflow-wrap: break-word;
-		padding: 0px 0px 0px 40px;
-		font-size: 17px;
-		margin-bottom: 40px;
+		padding: 0px 0px 0px 2.5rem;
+		font-size: 1rem;
+		margin-bottom: 2.5rem;
 	  }
 	  .news-video{
 		position: relative;
-		left: 330px;
+		left: 20.625rem;
 	  }
 	.date,
 	.category {
@@ -35,24 +35,24 @@
     color: rgb(98, 98, 98);
 	position: absolute;
     margin: 0;
-	top:15px;
+	top:0.938rem;
 
 	}
 	.date {
-		left: 25px;
+		left: 1.563rem;
 		}
 	.category{
 		text-align: right;
-		right: 25px;
+		right: 1.563rem;
 	}
 	.poster{
-		margin-right: 20px;
-		height: 300px;
+		margin-right: 1.25rem;
+		height: 18.75rem;
 	}
 	.poster-container{
 		display: flex;
 		justify-content: center;
 		position: relative;
 		margin: 0;
-		margin-bottom: 40px;
+		margin-bottom: 2.5rem;
 	}
