@@ -1,5 +1,9 @@
+	html{
+		font-size: 1vw;
+	}
+	
 	body {
-	font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+	font: Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
 	background: #c5c5c5;
 	}
 	.header_back
