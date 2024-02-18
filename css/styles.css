@@ -34,7 +34,7 @@
 	{
 		position: relative;
 		right: 0.5rem;
-		top: 0px;
+		top: 0;
 		height: 2.5rem;
 		width: 2.5rem;
 		display: flex;
@@ -60,7 +60,7 @@
 
 		width: 8.438rem;
 		position: relative;
-		left: 0px;
+		left: 0;
 		height: 7%;
 		min-height: 1.875rem;
 		max-height: 3.438rem;

@@ -1,3 +1,6 @@
+html{
+	font-size: 1vw;
+}
 	.news-background{
 		z-index: 0;
 		position: absolute;
@@ -15,17 +18,19 @@
     	font-weight: bold;
 		overflow-wrap: break-word;
 		width: 70rem;
-		padding: 0px 0px 0px 2.5rem;
+		padding: 0 0 0 2.5rem;
 		margin-bottom: 0.938rem;
 	  }
 	  .news-text{
-		width: 1120px;
+		width: 70rem;
 		overflow-wrap: break-word;
-		padding: 0px 0px 0px 2.5rem;
+		padding: 0 0 0 2.5rem;
 		font-size: 1rem;
 		margin-bottom: 2.5rem;
 	  }
 	  .news-video{
+		width: 35rem;
+		height: 19.688rem;
 		position: relative;
 		left: 20.625rem;
 	  }
