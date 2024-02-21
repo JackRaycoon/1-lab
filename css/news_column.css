@@ -17,7 +17,6 @@ html{
 	padding: 0.625rem;
 	background: #fff;
 	color: rgb(0, 0, 0);
-	height: 11.25rem;
 	width: 100%;
 	border: 0.25rem solid #383838;
 	border-radius: 0.625rem;
@@ -29,8 +28,7 @@ html{
 		position: relative;
 		margin: 0;
 		padding: 0;
-		height: 11.25rem;
-		width: 22.5rem;
+		width: 200px;
 		border-radius: 1.25rem;
 		object-fit: cover;
     	margin-right: 1.25rem;
